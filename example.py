@@ -1,5 +1,6 @@
 # Example Displaying usage of TheAward. It submits 1.5 hrs of activity on Tuesdays and Thursdays and 1 hr on Saturday for the amount of weeks specified with weeks.
 from theaward import TheAward
+import datetime
 
 a = TheAward('Sess_id', 'Act_id')
 hours = "1.50"
