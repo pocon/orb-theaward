@@ -3,11 +3,11 @@ import urllib
 import httplib
 
 class TheAward:
-''' 
+    ''' 
 
-Class to Post Data to http://orb.theaward.com.au/ . See Readme.txt for more information
+    Class to Post Data to http://orb.theaward.com.au/ . See Readme.txt for more information
 
-'''
+    '''
     def __init__(self, sessionid, activityid):
         self.sessionid = sessionid
         self.activity = activityid
